@@ -1,7 +1,8 @@
 repo_name: kapalal/Terraform-The-Hard-Way
 report_id: d5d9cbcae6fb9c84c42cadd4a655aa58
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:53:08+00:00'
+timestamp: '2024-01-04T15:09:45+00:00'
 requested_by: AdminTurnedDevOps
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kapalal/Terraform-The-Hard-Way
   detection_source: Repo Metadata
 - name: Terraform
   description: Describe your complete infrastructure as code and build resources across
@@ -26,4 +28,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
-  detection_source: Modules/sample-module/terraform.tf
+  detection_source_url: https://github.com/kapalal/Terraform-The-Hard-Way/blob/main/Modules/s3-bucket/terraform.tf
+  detection_source: Modules/s3-bucket/terraform.tf

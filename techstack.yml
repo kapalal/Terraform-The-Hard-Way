@@ -1,0 +1,32 @@
+repo_name: kapalal/Terraform-The-Hard-Way
+report_id: d5d9cbcae6fb9c84c42cadd4a655aa58
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:17:37+00:00'
+requested_by: AdminTurnedDevOps
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kapalal/Terraform-The-Hard-Way
+  detection_source: Repo Metadata
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/kapalal/Terraform-The-Hard-Way/blob/main/Modules/s3-bucket/terraform.tf
+  detection_source: Modules/s3-bucket/terraform.tf
